@@ -1,0 +1,23 @@
+name: ra-microbiome
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - plotly
+  - scikit-bio
+  - biom-format
+  - pip
+  - pip:
+    - xgboost
+    - shap
+    - statsmodels
+    - adjustText
